@@ -1,6 +1,6 @@
 # Project for the enpulse Hackathon 2023
 
-React + Vite
+Created with React + Vite
 
 <br/>
 
