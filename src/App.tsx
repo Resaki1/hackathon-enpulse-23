@@ -3,6 +3,7 @@ import viteLogo from "/vite.svg"; */
 import { useState } from "react";
 import "./App.scss";
 import { complete } from "./api/openai";
+import TwinCity from "/twincity.svg";
 
 function App() {
   const [text, setText] = useState("");
@@ -23,14 +24,21 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>TwinCity</h1>
+        <h1>
+          <img src={TwinCity} alt="TwinCity Logo" />
+        </h1>
         <h2>Stadt Karlsruhe</h2>
       </div>
       <div className="content">
         <h3>Wonach suchst du?</h3>
+        <p>
+          Frage zum Beispiel nach der Tiefe von Leitungen in einer bestimmten
+          Straße.
+        </p>
         <input
           type="text"
           value={text}
+          placeholder="Was ist die maximale Grabtiefe in der Moltkestraße?"
           onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") {
