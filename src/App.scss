@@ -1,0 +1,65 @@
+@use "three-dots" with (
+  $dot-color: var(--color-primary)
+);
+
+#root {
+  max-width: 1280px;
+  height: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--color-primary);
+  margin: 3rem 0 0 0;
+}
+
+h2 {
+  margin: 0 0 2rem 0;
+}
+h3 {
+  margin: 0 0 2rem 0;
+}
+
+input {
+  width: 64vw;
+  height: 64px;
+  border-radius: 64px;
+  outline: none;
+  background: var(--color-background);
+  border: 2px solid var(--color-primary);
+  color: var(--color-font);
+  padding-left: 32px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+
+  &:hover {
+    border-color: var(--color-secondary);
+  }
+}
+
+.dot-elastic {
+  margin: 2rem 0;
+}
+
+.content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 2rem;
+}

@@ -25,7 +25,7 @@
 a {
   font-weight: 500;
   color: var(--color-primary);
-  text-decoration: inherit;
+  text-decoration: underline;
 }
 a:hover {
   color: var(--color-secondary);
