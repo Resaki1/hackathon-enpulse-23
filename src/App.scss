@@ -64,6 +64,14 @@ input {
   margin: 2rem 0;
 }
 
+.header {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
 .content {
   margin-top: 4rem;
   display: flex;
@@ -75,4 +83,9 @@ input {
   margin-top: auto;
   margin-bottom: 2rem;
   font-weight: bold;
+
+  img {
+    transform: translateY(10px);
+    margin: 0 -2px;
+  }
 }

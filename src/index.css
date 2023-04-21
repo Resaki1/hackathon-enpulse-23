@@ -27,6 +27,7 @@ a {
   font-weight: 500;
   color: var(--color-primary);
   text-decoration: underline;
+  cursor: pointer;
 }
 a:hover {
   color: var(--color-secondary);
