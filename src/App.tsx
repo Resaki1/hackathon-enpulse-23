@@ -42,9 +42,13 @@ function App() {
         {result && (
           <>
             <p>{result}</p>
-            <a href="./data.html" target="_blank">
-              Schaue dir die PDF an
-            </a>
+            <p>
+              Lade dir{" "}
+              <a href="./data.html" target="_blank">
+                hier
+              </a>{" "}
+              die Daten runter.
+            </p>
           </>
         )}
       </div>
