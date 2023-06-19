@@ -1,4 +1,4 @@
-# Project for the enpulse Hackathon 2023
+# TwinCity
 
 Created with React + Vite
 
@@ -15,7 +15,7 @@ Node installed
 Clone the repository
 
 ```shell
-cd hackathon-enpulse-2023
+cd twincity
 npm i
 npm run dev
 ```

@@ -72,10 +72,6 @@ function App() {
           height="32"
           src="https://www.cityofmediaarts.de/wp-content/uploads/2021/05/logo_karlsruhe.png"
         />
-        | Ein Produkt von{" "}
-        <a href="https://enpulse.io/" target="_blank">
-          enpulse
-        </a>
       </div>
     </div>
   );
